@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm start)",
+      "Bash(npm install:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(copy package.json package.json.backup)",
+      "Bash(where chrome)",
+      "Bash(where msedge)",
+      "Bash(dir \"c:\\Users\\Asus\\Desktop\\deepanshu-portfolio\\content\\featured\")",
+      "Bash(dir \"c:\\Users\\Asus\\Desktop\\deepanshu-portfolio\\content\\featured\\HalcyonTheme\")",
+      "Bash(copy:*)",
+      "Bash(gatsby clean:*)",
+      "Bash(npm run clean:*)",
+      "Bash(git config:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nComplete portfolio customization with Deepanshu Verma''s content\n\n- Updated hero section with SaaS/AI/automation focus\n- Customized about section with skills and 1:1 profile image\n- Added work experience for Pear Media and RS Softgen\n- Created featured projects: Facebook Ad Library, Creative Library, Campaign Launcher, OMNISCIENT\n- Added archive projects: AWS Automation, Go2Billing, Lifestyle Monitor, Interview Prep, etc.\n- Updated logo and loader to display \"D\" instead of \"B\"\n- Removed all default template content (jobs, projects, blog posts)\n- Updated contact section and all social links\n- Added project screenshots and profile image\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(git remote remove:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
